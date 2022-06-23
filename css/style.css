@@ -1,0 +1,197 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+html{
+    font-size: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    color: gray;
+}
+
+body{
+    box-sizing: border-box;
+
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+h2{
+    font-size: 1.3rem;
+    margin-top: 0.3rem;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin:1rem 0 1rem 0;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #D92525;
+    font-size: 1.5rem;
+
+
+}
+
+a:active{
+    color: #D92525;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags h3{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height: 2rem;
+    min-width: 8rem;
+    border: 3px #D92525 solid;
+    border-radius: 5rem;
+    text-align: center;
+    background-color: #D92525;
+    padding: 0 10px 0 10px;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    color: white;
+    padding: 0.3rem  0.2rem 0.3rem 0.2rem;
+    height: 100%;
+}
+
+.table{
+    margin: 3rem 10rem 7rem 10rem;
+    background-color: #F2F2F2;
+    border-radius: 3rem;
+    min-width: 85vw;
+    padding: 1rem 6rem 1rem 6rem;
+    /* max-height: 90vh;
+    overflow-y: scroll; */
+}
+
+.item{
+    margin: 2rem 0 2rem 0;
+}
+
+
+
+.circle{
+    clip-path: polygon(0 0, 100% 0, 100% 49%, 0 77%);
+    background-color: #8C1F28;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+}
+
+.sitename{
+    color: white;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.line{
+    width: 100%;
+    border: 1px lightgray solid;
+    margin-top: 1rem;
+}
+
+
+.title{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.pageNumber{
+    font-size: 2rem;
+    margin: 0 0.5rem 1rem 0.5rem;
+    color: rgba(89, 27, 32, 1);
+}
+
+.changePageButton{
+    color:  #8C1F28;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    border-radius: 3rem;
+    font-weight: 400;
+}
+
+.loading{
+    background-color: #8C1F28;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.link{
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+@media (max-width: 1200px){
+    .table{
+        margin:0;
+        max-width: 50rem;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+@media (max-width:600px){
+    .table{
+        margin:0;
+        max-width: 30rem;
+        word-break: break-all;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+
+
+.Samuel-Alexander-AW19-Collection-1-rgba { color: rgba(140, 30, 39, 1); }
+.Samuel-Alexander-AW19-Collection-2-rgba { color: rgba(89, 27, 32, 1); }
+.Samuel-Alexander-AW19-Collection-3-rgba { color: rgba(3, 63, 63, 1); }
+.Samuel-Alexander-AW19-Collection-4-rgba { color: rgba(216, 36, 36, 1); }
+.Samuel-Alexander-AW19-Collection-5-rgba { color: rgba(242, 242, 242, 1); }
+
+
+

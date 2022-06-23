@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  src="js/script.js" charset="UTF-8" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta name="theme-color" content="#4285f4">
+    <meta name=description content="Catalogo de Red(recursos educacionais digitais)">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" href="favicon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> 
+    <title>REDS</title>
+</head>
+<body onload="uptadeItens()">
+    
+    <main>
+        <div class="sitename">REDS</div>
+        <div class="wrapper"> 
+            <div class="circle"></div> 
+            <div class="table" id="table">
+                
+            </div>
+    
+            <footer>
+                <a onclick="changeItens(-1)" class="changePageButton" href="#"><span class="material-symbols-outlined">arrow_back_ios_new</span></a>
+                <p class="pageNumber">0</p>
+                <a onclick="changeItens(1)" class="changePageButton" href="#"><span class="material-symbols-outlined">arrow_forward_ios</span></a>
+    
+            </footer>
+
+        </div>
+
+
+
+
+    </main>
+</body>
+</html>
